@@ -1,0 +1,45 @@
+	<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio FYS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.png">
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"><img src="img/logo.png" class="logo"></a>
+            <div class="toggleMenu" onclick="menuToggle();"></div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Novidade</a></li>
+                <li><a href="#">Promoções</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+		    <h2>TODO SABOR COM<br><span>50% MENOS AÇÚCAR</span></h2>
+                <p>Desfrute de momentos de puro prazer e refrescância com o mais recente lançamento da FYS. Estamos empolgados em apresentar a você o nosso irresistível refrigerante, cuidadosamente formulado para proporcionar um sabor incrível com 50% menos açúcar.</p>
+                <a href="#">Veja todos os produtos</a>
+            </div>
+            <div class="imgBox">
+                <img src="img/pepsi.png" class="pepsi">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="img/laranja.png" onclick="imgSlider('img/laranja.png');changeBgColor('#FF7F11')"></li>
+            <li><img src="img/guarana.png" onclick="imgSlider('img/guarana.png');changeBgColor('#FF1B1C')"></li>
+            <li><img src="img/limao.png" onclick="imgSlider('img/limao.png');changeBgColor('#fff44f')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="img/facebook.png"></a></li>
+            <li><a href="#"><img src="img/twitter.png"></a></li>
+            <li><a href="#"><img src="img/instagram.png"></a></li>
+        </ul>
+    </section>
+    <script src="js.js"></script>
+</body>
+</html>
